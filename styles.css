@@ -65,3 +65,67 @@ button:hover{
     cursor: pointer;
     border-color: hsl(300, 69%, 71%);
 }
+@media (max-width: 376px){
+    body{
+        background-color: hsl(257, 40%, 49%);
+        background-image: url(bg-mobile.svg);
+        background-repeat: no-repeat;
+        padding: 30px;
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+     }
+     #logo{
+        width: 40%;
+    }
+    #mockup{
+        width: 100%;
+        margin-top: 19%;
+    }
+     .text{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    h1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        margin: 20% auto 15px auto;
+        width: 100%;
+    }
+    p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16.3px;
+        font-weight: 400;
+        line-height: 1.5;
+        width: 100%;
+        margin: auto
+    }
+    button{
+        background-color: white;
+        width: 250px;
+        height: 50px;
+        border-radius: 30px;
+        color: hsl(257, 40%, 49%);
+        box-shadow: 0.1px 0.1px .1px black;
+        margin: 18px 20px 30px auto;
+    }
+    .fab{
+        color: white;
+        padding: 10px;
+        border: 2px solid white;
+        border-radius: 50%;
+        text-align: center;
+    }
+    .icons{
+        background-color: blue;
+        text-align: center;
+        margin-right: 60px;
+    }
+}
