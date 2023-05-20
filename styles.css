@@ -1,3 +1,67 @@
-*{
-    background-color: blue;
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(bg-desktop.svg);
+    background-repeat: no-repeat;
+    padding: 40px 60px;
+}
+.images{
+   display: flex;
+   flex-direction: column;
+}
+#logo{
+    width: 16%;
+}
+#mockup{
+    width: 54.5%;
+    margin-top: 7%;
+}
+.text{
+    float: right;
+    width: 40%;
+    margin-top: -38%;
+    color: white;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    padding-right: 55px;
+    margin-left: -10px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: -10px;
+    line-height: 1.5;
+    width: 98%;
+}
+button{
+    float: right;
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 0.5px 0.5px 3px black;
+    margin-right: 335px;
+    margin-top: -220px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+.fab{
+    color: white;
+    float: right;
+    padding: 10px;
+    margin: 65px 5px 5px 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.fab:hover{
+    color: hsl(300, 69%, 71%);
+    cursor: pointer;
+    border-color: hsl(300, 69%, 71%);
 }
